@@ -1,3 +1,5 @@
+from cmu_graphics import *
+
 # Sun
 sun = Oval(375,25,100,100,fill=gradient('yellow','orange'),border='lightyellow',borderWidth=1)
 
@@ -98,3 +100,6 @@ def onMouseRelease(mouseX,mouseY):
     Clouds(50,150,'white')
 
 # Frozen In Time: Depths of the Unknown 2
+
+
+cmu_graphics.run()
