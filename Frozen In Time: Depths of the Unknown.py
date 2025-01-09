@@ -9,6 +9,8 @@
 # Property Change 4: Line 61 and 71
 # Property Change 5: Line 62 and 72
 
+from cmu_graphics import *
+
 # Sun
 sun = Oval(375,25,100,100,fill=gradient('yellow','orange'),border='lightyellow',borderWidth=1)
 
@@ -78,3 +80,6 @@ def onMouseRelease(mouseX,mouseY):
     Clouds(50,150,'white')
 
 # Frozen In Time: Depths of the Unknown
+
+
+cmu_graphics.run()
