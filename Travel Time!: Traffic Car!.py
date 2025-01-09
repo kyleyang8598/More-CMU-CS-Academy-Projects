@@ -1,3 +1,5 @@
+from cmu_graphics import *
+
 # Background
 app.background = 'lightGreen'
 
@@ -48,3 +50,6 @@ def onMouseRelease(mouseX,mouseY):
     redLight.fill = 'red'
 
 # Travel Time!: Traffic Car!
+
+
+cmu_graphics.run()
