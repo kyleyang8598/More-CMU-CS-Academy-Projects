@@ -1,3 +1,5 @@
+from cmu_graphics import *
+
 # Player
 playerHead = Circle(200,200,10,fill=None,border='black')
 playerBody = Line(200,210,200,230)
@@ -178,3 +180,6 @@ def onKeyRelease(key):
     cannonFire2.visible = False
 
 # Cannon Dodgeball
+
+
+cmu_graphics.run()
