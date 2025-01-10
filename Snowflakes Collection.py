@@ -1,3 +1,5 @@
+from cmu_graphics import *
+
 # Background
 app.background = 'skyBlue'
 
@@ -148,3 +150,6 @@ def onKeyHold(keys):
         app.stop()
 
 # Snowflakes Collection
+
+
+cmu_graphics.run()
