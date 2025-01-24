@@ -3,6 +3,8 @@
 # Groups: Lines 15-50
 # Step Events With Motion: Lines 50-90
 
+from cmu_graphics import *
+
 # Background
 app.background = 'lightGreen'
 
@@ -88,3 +90,6 @@ def onKeyHold(keys):
             boat.centerY += boat.dy
 
 # River Falls: Main Street
+
+
+cmu_graphics.run()
