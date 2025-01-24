@@ -5,6 +5,8 @@
 # angleTo: Line 60
 # getPointInDir: Lines 50, 66, and 68
 
+from cmu_graphics import *
+
 # Background
 app.background = 'skyBlue'
 
@@ -73,3 +75,6 @@ def onMouseRelease(mouseX,mouseY):
     cannonFire.visible = False
 
 # Shoot The Stickman
+
+
+cmu_graphics.run()
