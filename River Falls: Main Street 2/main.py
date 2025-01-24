@@ -3,6 +3,8 @@
 # Local Variables: Lines 30-40
 # For Loops: Lines 33 and 80
 
+from cmu_graphics import *
+
 # Background
 app.background = 'lightGreen'
 
@@ -98,3 +100,6 @@ def onKeyHold(keys):
             boat.centerY += boat.dy
 
 # River Falls: Main Street 2
+
+
+cmu_graphics.run()
